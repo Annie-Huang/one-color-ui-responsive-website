@@ -2,6 +2,9 @@ Build One Color UI Responsive Website Tutorial (HTML5 & CSS3)
 (https://www.youtube.com/watch?v=2IjyqauKumE&t=764s)
 
 https://github.com/Annie-Huang/one-color-ui-responsive-website
-
+https://fonts.google.com/specimen/Lobster?query=lobster&sidebar.open=true&selection.family=Lobster
+https://fonts.google.com/specimen/Montserrat?sidebar.open=true&selection.family=Lobster|Montserrat:wght@400;600&query=montserrat#standard-styles
 ============================================================================
 
+font-family: 'Lobster', cursive;
+font-family: 'Montserrat', sans-serif;
