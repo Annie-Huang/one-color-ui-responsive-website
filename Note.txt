@@ -8,3 +8,5 @@ https://fonts.google.com/specimen/Montserrat?sidebar.open=true&selection.family=
 
 font-family: 'Lobster', cursive;
 font-family: 'Montserrat', sans-serif;
+
+C:\react\one-color-ui-responsive-website>npm init -y
