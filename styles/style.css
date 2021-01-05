@@ -253,6 +253,10 @@ footer h1 {
     font-size: 5rem;
     text-align: center;
   }
+
+  footer h1 {
+    flex: 1;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
