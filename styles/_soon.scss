@@ -14,4 +14,7 @@
   .circle {
     z-index: -1;  // again, not sure why the .circle will be on top of .soon if z-index === -1;
   }
+  h2 {
+    top: 25%;
+  }
 }

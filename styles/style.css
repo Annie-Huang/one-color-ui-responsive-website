@@ -180,5 +180,8 @@ nav .order {
 .soon .circle {
   z-index: -1;
 }
+.soon h2 {
+  top: 25%;
+}
 
 /*# sourceMappingURL=style.css.map */
