@@ -17,6 +17,7 @@ nav {
     display: flex;
     justify-content: space-between;
     flex: 1;
+    list-style: none;
   }
   #logo {
     flex: 3; // this means the space of ul:#logo === 1:3
@@ -33,5 +34,11 @@ nav {
       transform: translate(-10%, -20%);
       mix-blend-mode: screen; // z-index: 2; on #logo or negative on ::after pseudo element will not work.
     }
+  }
+
+  .order {
+    background: #f54538;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
   }
 }

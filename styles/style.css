@@ -67,6 +67,7 @@ nav ul {
   display: flex;
   justify-content: space-between;
   flex: 1;
+  list-style: none;
 }
 nav #logo {
   flex: 3;
@@ -83,6 +84,11 @@ nav #logo::after {
   border-radius: 50%;
   transform: translate(-10%, -20%);
   mix-blend-mode: screen;
+}
+nav .order {
+  background: #f54538;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
