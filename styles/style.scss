@@ -71,5 +71,18 @@ a {
       text-align: center;
     }
   }
+  .features {
+    align-items: center;
+    h2 {
+      margin-top: 5rem;
+    }
+    .cards {
+      flex-direction: column;
+      width: 100%;
+      .card {
+        margin: 5rem 0;
+      }
+    }
+  }
 }
 

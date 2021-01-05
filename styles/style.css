@@ -228,6 +228,20 @@ footer h1 {
     grid-column: 2/3;
     text-align: center;
   }
+
+  .features {
+    align-items: center;
+  }
+  .features h2 {
+    margin-top: 5rem;
+  }
+  .features .cards {
+    flex-direction: column;
+    width: 100%;
+  }
+  .features .cards .card {
+    margin: 5rem 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
