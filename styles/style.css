@@ -242,6 +242,17 @@ footer h1 {
   .features .cards .card {
     margin: 5rem 0;
   }
+
+  .soon {
+    overflow: hidden;
+  }
+  .soon img {
+    width: 60%;
+  }
+  .soon h2 {
+    font-size: 5rem;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
