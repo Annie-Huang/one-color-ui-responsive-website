@@ -117,4 +117,40 @@ nav .order {
   padding-bottom: 3rem;
 }
 
+.features-container {
+  background: #323232;
+}
+
+.features {
+  min-height: 90vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.features .cards {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+.features .cards .card {
+  background: white;
+  margin: 0 10rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.features .cards .card h4 {
+  margin: 2rem 0 1rem 0;
+}
+.features .cards .card p {
+  padding: 2rem;
+}
+.features .cards .card img {
+  object-fit: cover;
+}
+
 /*# sourceMappingURL=style.css.map */
