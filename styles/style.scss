@@ -58,5 +58,18 @@ a {
       }
     }
   }
+  .showcase {
+    grid-template-columns: 10% 1fr 10%;
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+    img,
+    h2,
+    .info {
+      grid-column: 2 / 3;
+      text-align: center;
+    }
+  }
 }
 

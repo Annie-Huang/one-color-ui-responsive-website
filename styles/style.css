@@ -214,6 +214,20 @@ footer h1 {
   nav ul li {
     margin-left: 5rem;
   }
+
+  .showcase {
+    grid-template-columns: 10% 1fr 10%;
+  }
+  .showcase img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .showcase img,
+.showcase h2,
+.showcase .info {
+    grid-column: 2/3;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
