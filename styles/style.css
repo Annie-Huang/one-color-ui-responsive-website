@@ -113,5 +113,8 @@ nav .order {
   grid-row: 3/4;
   grid-column: 4/5;
 }
+.showcase h3 {
+  padding-bottom: 3rem;
+}
 
 /*# sourceMappingURL=style.css.map */
