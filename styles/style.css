@@ -70,6 +70,19 @@ nav ul {
 }
 nav #logo {
   flex: 3;
+  position: relative;
+}
+nav #logo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6rem;
+  height: 6rem;
+  background: #f54538;
+  border-radius: 50%;
+  transform: translate(-10%, -20%);
+  mix-blend-mode: screen;
 }
 
 /*# sourceMappingURL=style.css.map */
