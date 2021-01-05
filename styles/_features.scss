@@ -1,6 +1,17 @@
 .features-container {
   background: #323232;
+  position: relative;
+  z-index: 0; // I don't know why .feature-container will be below .wave
+
+  .wave {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+  }
 }
+
 .features {
   min-height: 90vh;
   width: 80%;
