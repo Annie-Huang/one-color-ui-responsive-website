@@ -203,4 +203,17 @@ footer h1 {
   flex: 3;
 }
 
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 50%;
+  }
+
+  nav #logo {
+    flex: 1;
+  }
+  nav ul li {
+    margin-left: 5rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
